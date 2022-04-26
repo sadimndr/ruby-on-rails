@@ -1,0 +1,2 @@
+module RailsblogsHelper
+end

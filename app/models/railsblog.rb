@@ -1,0 +1,2 @@
+class Railsblog < ApplicationRecord
+end

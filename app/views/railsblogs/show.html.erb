@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @railsblog %>
+
+<div>
+  <%= link_to "Edit this railsblog", edit_railsblog_path(@railsblog) %> |
+  <%= link_to "Back to railsblogs", railsblogs_path %>
+
+  <%= button_to "Destroy this railsblog", @railsblog, method: :delete %>
+</div>
